@@ -183,6 +183,7 @@ body {
   height: 5px;
   border-radius: 30px;
   background: #9a9216;
+  border: solid black 1px;
   transform-origin: 0%;
   transform: rotate(-90deg);
   animation: rotate 60s infinite steps(60);
@@ -220,6 +221,7 @@ body {
   transform: rotate(-90deg);
   animation: rotate 3600s infinite steps(60);
   position: absolute;
+  border: solid black 1px;
   bottom: 65px;
   left: 80px;
 }
