@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+body {
+  width: 99%;
+  background-image: url(https://i.pinimg.com/originals/a1/9b/36/a19b36b3dedd8674821b1df3235555d2.jpg);
+  background-repeat: no-repeat;
+  font-family: "Anton", sans-serif;
+}
+
+.icons-section {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+}
+
+.spongebob-container {
+  background: #9a9216;
+  max-width: 520px;
+  height: 520px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+.spongebob-body {
+  background: #e7e810;
+  margin-top: 5px;
+  width: 510px;
+  height: 510px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.hole-1 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #9a9216;
+  position: absolute;
+  top: 30px;
+  left: 140px;
+}
+.hole-2 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #9a9216;
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+.hole-3 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #9a9216;
+  position: absolute;
+  top: 314px;
+  left: 412px;
+}
+.hole-4 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #9a9216;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+
+.Eye-Container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.Eye {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.eye-brow-L {
+  width: 160px;
+  height: 10px;
+  background: black;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.eye-brow-R {
+  width: 160px;
+  height: 10px;
+  background: black;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.eyes-container {
+  width: 160px;
+  height: 160px;
+  background: black;
+  border-radius: 50%;
+}
+
+.eye-lash-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -16px;
+}
+
+.eye-lash {
+  width: 15px;
+  height: 35px;
+  background: black;
+}
+
+.eye-lash-l {
+  width: 15px;
+  height: 35px;
+  background: black;
+
+  -ms-transform: rotate(-25deg); /* IE 9 */
+  -webkit-transform: rotate(-25deg); /* Safari */
+  transform: rotate(-25deg);
+}
+
+.eye-lash-r {
+  width: 15px;
+  height: 35px;
+  background: black;
+  -ms-transform: rotate(25deg); /* IE 9 */
+  -webkit-transform: rotate(25deg); /* Safari */
+  transform: rotate(25deg);
+}
+.eye-body {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding-top: 1px;
+}
+
+.eye-color {
+  width: 75px;
+  height: 75px;
+  background: #65b5dc;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: solid black 2px;
+  margin-top: 30px;
+}
+
+.pupil {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: black;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.clock-container {
+  transform: rotate(-90deg);
+}
+
+.seconds {
+  z-index: 100;
+  margin: 0 auto;
+  margin-top: -30px;
+  width: 240px;
+  height: 5px;
+  border-radius: 30px;
+  background: #9a9216;
+  transform-origin: 0%;
+  transform: rotate(-90deg);
+  animation: rotate 60s infinite steps(60);
+  position: absolute;
+  bottom: 80px;
+  left: 90px;
+}
+
+.hours {
+  z-index: 100;
+  margin: 0 auto;
+  margin-top: -30px;
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  background: #e7e810;
+  border: solid black 3px;
+  transform-origin: 0%;
+  transform: rotate(-90deg);
+  animation: rotate 43200s infinite linear;
+  position: absolute;
+  bottom: 65px;
+  left: 90px;
+}
+
+.minutes {
+  z-index: 100;
+  margin: 0 auto;
+  margin-top: -30px;
+  width: 230px;
+  height: 20px;
+  border-radius: 30px;
+  background: #9a9216;
+  transform-origin: 0%;
+  transform: rotate(-90deg);
+  animation: rotate 3600s infinite steps(60);
+  position: absolute;
+  bottom: 65px;
+  left: 80px;
+}
+
+.center {
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: absolute;
+  bottom: 55px;
+  left: 65px;
+  border-radius: 50%;
+}
+
+.digital-clock {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #36508b;
+  font-size: 60px;
+  border: black solid 1px;
+  background: rgba(138, 103, 157, 0.6);
+  width: 25%;
+  text-align: center;
+  letter-spacing: 7px;
+}
